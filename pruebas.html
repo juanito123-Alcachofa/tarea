@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño en tres columnas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .contenedor {
+      display: flex;
+      height: 100vh;
+    }
+
+    .izquierda, .centro, .derecha {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .izquierda {
+      background-color: #f8b400;
+      width: 25%;
+    }
+
+    .centro {
+      background-color: #ffffff;
+      width: 50%;
+    }
+
+    .derecha {
+      background-color: #00bcd4;
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="izquierda">
+      <h2>Izquierda</h2>
+      <p>Contenido de la columna izquierda.</p>
+    </div>
+    <div class="centro">
+      <h2>Centro</h2>
+      <p>Contenido principal en el centro.</p>
+    </div>
+    <div class="derecha">
+      <h2>Derecha</h2>
+      <p>Contenido de la columna derecha.</p>
+    </div>
+  </div>
+</body>
+</html>
